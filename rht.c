@@ -1,5 +1,12 @@
-/* Created by Jason Seymour
- * Patterned on code from wiringPi
+/*
+ * rht.c - Relative Humidity and Temperature
+ * Combines code from wiringPI and wpnsmith's Instructable
+ * Modified by Jason Seymour to convert Celsius to Fahrenheit, deal with negative
+ * temps correctly, and store output into a SQLite3 database.
+ * This version copyright Jason Seymour 2014
+ *
+ * This code is functional, but does have a few rough edges yet.
+ * Revision 1.0 - 1/11/2014
 */
 
 #include <stdio.h>

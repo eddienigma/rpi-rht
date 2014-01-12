@@ -10,6 +10,7 @@
 # rev 1.5 12/03/2013 WPNS better label
 # rev 1.6 12/03/2013 WPNS bugfix, release
 # rev 1.69 12/04/2013 WPNS release to Instructables
+# rev 2.0-JAS 1/11/2014 JAS adjusted graph ranges for current conditions and to use SQLite3 instead of MySQL
 
 import sys
 import os
