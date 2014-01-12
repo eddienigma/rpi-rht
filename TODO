@@ -1,0 +1,6 @@
+# List of things I still need to add, improve, or fix
+# These are in no particular order
+
+* Auto-ranging graph min/max values
+* Resolve db lock contention issues
+
